@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- my own css  -->
+    <link href="./css/styles.css" rel="stylesheet">
+
+    <title>Vintage cars</title>
+  </head>
+  
+  <body>
+   <!-- Navbar starts here -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">VC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#cars">Cars</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#enquiries">Enquiries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+   <!-- Navbar ends here -->
+
+
+
+   <!-- Cars list starts here -->
+   <section class="container mt-3" id="cars">
+       <h4>Vintage cars for hire</h4>
+       <br>
+
+     <!-- Row 1 start -->
+     <h5>Cars list</h5>
+
+        <div class="row">
+            <!-- Start Car 1 -->
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/Vintage Royal Blue Car.jpeg" class="card-img-top" alt="Vintage Royal Blue Car">
+                <div class="card-body">
+                  <p class="card-text"><h5>Vintage Royal Blue Car</h5>
+                    Car Type: Sedan
+                    <br>
+                    Doors: 2
+                     </p>
+                </div>
+              </div>
+          </div>
+          <!-- End car 1 -->
+           <!-- Start car 2 -->
+           <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/Vintage White Sedan.jpeg" class="card-img-top" alt="Vintage White Sedan">
+                <div class="card-body">
+                  <p class="card-text"><h5>Vintage White Sedan</h5>
+                      Car Type: Sedan
+                    <br>
+                    Doors: 2</p>
+                </div>
+              </div>
+          </div>
+          <!-- End car 2 -->
+           <!-- Start car 3 -->
+           <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/Vintage Teal Sedan.jpeg" class="card-img-top" alt="Vintage Teal Sedan">
+                <div class="card-body">
+                  <p class="card-text"><h5>Vintage Teal Sedan</h5>
+                    Car Type: Sedan
+                    <br>
+                    Doors: 2</p>
+                </div>
+              </div>
+          </div>
+          <!-- End car 3 -->
+           <!-- Start Car 4 -->
+           <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img src="./images/Vintage Jeep.jpeg" class="card-img-top" alt="Vintage Jeep">
+                <div class="card-body">
+                  <p class="card-text"><h5>Vintage Jeep</h5>
+                    Car Type: Sedan
+                    <br>
+                    Doors: 2</p>
+                </div>
+              </div>
+          </div>
+          <!-- End Car 4-->
+          
+        </div>
+        <!-- Row1 end  -->
+     
+   </section>
+   <!-- Cars List ends here -->  
+
+    <!-- Enquiries starts here -->
+    <section class="container mt-3 enquiriesstyle" id="Enquiries">
+         <h4>Enquiries</h4> 
+    <form>
+        <div class="mb-3">
+            <label for="fullname" class="form-label">Full Name</label>
+            <input name="fullname" type="text" class="form-control" id="exampleInputPassword1">
+          </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input name="email" type="email" class="form-control" id="email1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text"></div>
+        </div>
+        <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Choose a Car</label>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Select a car</option>
+            <option value="1">Vintage Royal Blue Car</option>
+            <option value="2">Vintage White Sedan</option>
+            <option value="3">Vintage Teal Sedan</option>
+            <option value="4">Vintage Jeep</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Comments</label>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2"></label>
+          </div>
+          </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+          <!-- Contact starts here -->
+          <section> 
+            <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label">Contact</label>
+                <p class="card-text"> 
+                    Address: 20 Anderson Road, Sunshine, VIC, 3024
+                    <br>
+                     PH:03 0000 0000
+                     <br>
+                    Email Address : Vintagecars@yahoo.net.au</p>
+              </div>
+            </section>
+
+
+        <!-- contact ends here -->
+
+      </form>
+    </section>
+
+   <!-- Join us ends here -->
+
+    
+
+   <!-- Footer starts here -->
+   <section>
+   <footer Class="container text-center">Copyright @SL. All rights reserved 2021.</footer>
+    </section>
+
+   <!-- Footer ends here -->
+
+   
+
+
+    
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
