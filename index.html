@@ -18,7 +18,8 @@
    <!-- Navbar starts here -->
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">VC</a>
+      <a class="navbar-brand" id="logo" href="#">
+        <img src="./images/logos.jpeg" alt="" width="60" height="50" class="d-inline-block align-text-top"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -45,11 +46,11 @@
 
    <!-- Cars list starts here -->
    <section class="container mt-3" id="cars">
-       <h4>Vintage cars for hire</h4>
+       <h4 class="container" id="hire">Vintage cars for hire</h4>
        <br>
 
      <!-- Row 1 start -->
-     <h5>Cars list</h5>
+     <h5>Car Listing</h5>
 
         <div class="row">
             <!-- Start Car 1 -->
@@ -75,6 +76,7 @@
                       Car Type: Sedan
                     <br>
                     Doors: 2</p>
+                    <br>
                 </div>
               </div>
           </div>
@@ -113,7 +115,7 @@
    <!-- Cars List ends here -->  
 
     <!-- Enquiries starts here -->
-    <section class="container mt-3 enquiriesstyle" id="Enquiries">
+    <section class="container mt-3 enquiriesstyle" id="enquiries">
          <h4>Enquiries</h4> 
     <form>
         <div class="mb-3">
@@ -144,10 +146,12 @@
           </div>
         
         <button type="submit" class="btn btn-primary">Submit</button>
-          <!-- Contact starts here -->
-          <section> 
+        </section>
+        
+        <!-- Contact starts here -->
+          <section class="container mt-3 contactstyle" id="contact">
             <div class="mb-3">
-                <label for="formGroupExampleInput" class="form-label">Contact</label>
+                <label for="formGroupExampleInput" class="form-label" id="contactstyle">Contact</label>
                 <p class="card-text"> 
                     Address: 20 Anderson Road, Sunshine, VIC, 3024
                     <br>
@@ -156,29 +160,23 @@
                     Email Address : Vintagecars@yahoo.net.au</p>
               </div>
             </section>
-
-
         <!-- contact ends here -->
-
+        <!-- Back to top Link Start-->
+        <section class="top">
+          <a class="container" href="#top">Back to top of page</a>
+        </section>
+          <!-- Back to top Link end -->
       </form>
     </section>
 
    <!-- Join us ends here -->
-
-    
-
    <!-- Footer starts here -->
    <section>
-   <footer Class="container text-center">Copyright @SL. All rights reserved 2021.</footer>
+   <footer Class="container text-center fw-bold">Copyright @SL. All rights reserved 2021.</footer>
     </section>
 
    <!-- Footer ends here -->
-
-   
-
-
-    
-
+  
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 

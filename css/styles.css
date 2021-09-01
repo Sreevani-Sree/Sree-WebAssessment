@@ -1,0 +1,27 @@
+
+#navbarNav{
+    font-weight: bold;
+    background-color:rgb(241, 163, 163);
+    }
+
+    #hire{
+       font-family: fantasy;
+       text-align: center;
+    
+    }
+   
+    .enquiriesstyle{
+        background-color:rgb(189, 245, 245);
+    }
+    #contactstyle{
+        font-weight: bold;
+        color: rgb(113, 101, 241);
+        font-size: 20px;
+    }
+    .contactstyle{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+    .top{
+        text-align: end;
+    }
